@@ -5,7 +5,6 @@ import android.graphics.Canvas;
 
 import java.util.ArrayList;
 
-
 public class PuzzleBoard {
 
     private static final int NUM_TILES = 3;
@@ -17,7 +16,16 @@ public class PuzzleBoard {
     };
     private ArrayList<PuzzleTile> tiles;
 
+    /*
+    Implement the constructor for PuzzleBoard.
+    It should take the passed-in Bitmap object and divide it into NUM_TILES x NUM_TILES equal-sized pieces. (Hint: You can use the Bitmap.createBitmap and Bitmap.createScaledBitmap methods to do so.)
+    Then use each "chunk" of the bitmap to initialize a tile object.
+    Remember to leave the last tile null to represent the 'empty' tile!
+     */
     PuzzleBoard(Bitmap bitmap, int parentWidth) {
+
+        
+
     }
 
     PuzzleBoard(PuzzleBoard otherBoard) {
