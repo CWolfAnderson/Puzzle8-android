@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/apicard/AndroidStudioProjects/Puzzle8_starter/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/apicard/AndroidStudioProjects/Puzzle8_starter/app/build/intermediates/pre-dexed/debug/classes-814ad26970bba405f5e041348c4feddba8e84bee.jar" />
+    </item>
+    <item
+        jar="/Users/apicard/AndroidStudioProjects/Puzzle8_starter/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/apicard/AndroidStudioProjects/Puzzle8_starter/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-497f73dd1a28c6d7c6c4eb9a8a9e888cfd62c38b.jar" />
+    </item>
+    <item
+        jar="/Users/apicard/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/apicard/AndroidStudioProjects/Puzzle8_starter/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-2b9e801f2d76d10c5478a3ee82a63d0dd7922a54.jar" />
+    </item>
+    <item
+        jar="/Users/apicard/AndroidStudioProjects/Puzzle8_starter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/apicard/AndroidStudioProjects/Puzzle8_starter/app/build/intermediates/pre-dexed/debug/classes-3f1d3bd4d506ff0d6c865d41d589fcebf7ac103a.jar" />
+    </item>
+
+</items>
