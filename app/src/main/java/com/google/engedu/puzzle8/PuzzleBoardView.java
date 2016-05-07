@@ -51,12 +51,23 @@ public class PuzzleBoardView extends View {
     }
 
     /*
-    The implementation of PuzzleBoardView.shuffle is then a matter of repeatedly updating PuzzleBoardView.puzzleBoard to a randomly selected value from PuzzleBoardView.puzzleBoard.neighbours().
-    Don't forget to call invalidate() at the end of the shuffle method in order to update the UI.
+    √ The implementation of PuzzleBoardView.shuffle is then a matter of repeatedly updating PuzzleBoardView.puzzleBoard to a randomly selected value from PuzzleBoardView.puzzleBoard.neighbours().
+    √ Don't forget to call invalidate() at the end of the shuffle method in order to update the UI.
      */
     public void shuffle() {
+
+        ArrayList<PuzzleBoard> possibleMoves;
+        int randomMove;
+
         if (animation == null && puzzleBoard != null) {
-            // Do something.
+
+            for(int count = 0; count < NUM_SHUFFLE_STEPS; count++) {
+                possibleMoves = puzzleBoard.neighbours();
+                randomMove = random.nextInt(possibleMoves.size());
+                puzzleBoard = possibleMoves.get(randomMove);
+            }
+            // update the UI.
+            invalidate();
         }
     }
 
