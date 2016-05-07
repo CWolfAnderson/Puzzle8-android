@@ -3,6 +3,7 @@ package com.google.engedu.puzzle8;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -53,9 +54,21 @@ public class PuzzleActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
+            Bundle extras = data.getExtras();
+            imageBitmap = (Bitmap) extras.get("data");
+            boardView.initialize(imageBitmap, null);
+        }
     }
 
+    /*
+    √ To implement the picture-taking functionality, start in dispatchTakePictureIntent method
+        (that is the handler for the "Take photo" button) to create a new intent using MediaStore.ACTION_IMAGE_CAPTURE and start that intent.
+     */
     public void dispatchTakePictureIntent(View view) {
+        Intent cameraCapture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivityForResult(cameraCapture, REQUEST_IMAGE_CAPTURE);
     }
 
     public void shuffleImage(View view) {
