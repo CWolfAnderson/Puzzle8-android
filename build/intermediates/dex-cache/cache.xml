@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_efd3afe040744df87a53349b88e1b8196845a7c7.jar" />
+    </item>
+    <item
+        jar="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4144ab13e0fdfcefc7ca5685056ffef489fe1cc2">
+        <dex dex="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_6978ac2edfc8e14be21c9ff28a8ca8ccc038c025.jar" />
+    </item>
+    <item
+        jar="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.1_4a6c4c8575b4192f3c3c42de4fa580aa79ed01f6.jar" />
+    </item>
+    <item
+        jar="/Users/christoph/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_8c536a10a341fcf4eb93bed9db8d0b1f12f3d27d.jar" />
+    </item>
+    <item
+        jar="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.1_5d3ca39427d3ebb89d014248f0128ace9024fdd0.jar" />
+    </item>
+    <item
+        jar="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="3f998ea4d03c55a9f11921d96d75c9c422096921">
+        <dex dex="/Users/christoph/GitHub/Puzzle8-android/app/build/intermediates/pre-dexed/debug/instant-run_591c9a20b0f1220af98c16d9165eec8d573f8bcd.jar" />
+    </item>
+
+</items>
